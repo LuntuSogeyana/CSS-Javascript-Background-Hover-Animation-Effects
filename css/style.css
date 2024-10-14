@@ -35,3 +35,11 @@
     transition: 0s ease-in-out;
     background: white;
 }
+
+.box::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #1d1d1d;
+    transition: 2s ease-in-out;
+}
