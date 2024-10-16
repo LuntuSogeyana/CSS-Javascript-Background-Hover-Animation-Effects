@@ -36,6 +36,42 @@
     background: white;
 }
 
+.box:nth-child(9n+1):hover::before {
+    background: red;
+}
+
+.box:nth-child(9n+2):hover::before {
+    background: green;
+}
+
+.box:nth-child(9n+3):hover::before {
+    background: blue;
+}
+
+.box:nth-child(9n+4):hover::before {
+    background: yellow;
+}
+
+.box:nth-child(9n+5):hover::before {
+    background: pink;
+}
+
+.box:nth-child(9n+6):hover::before {
+    background: orange;
+}
+
+.box:nth-child(9n+7):hover::before {
+    background: purple;
+}
+
+.box:nth-child(9n+8):hover::before {
+    background: lightblue;
+}
+
+.box:nth-child(9n+9):hover::before {
+    background: white;
+}
+
 .box::after {
     content: '';
     position: absolute;
